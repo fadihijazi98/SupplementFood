@@ -12,7 +12,7 @@ class CreateIngredientsTable extends Migration
      * @return void
      */
     public function up()
-    {
+    {   
         // ingredients : i mean amounts and ratios
         Schema::create('ingredients', function (Blueprint $table) {
             $table->id();
